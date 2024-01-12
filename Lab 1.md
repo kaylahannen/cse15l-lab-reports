@@ -11,6 +11,9 @@ Example 5: ls, directory argument
 
 Example 6: ls, file argument
 
+![Image](Screen Shot 2024-01-11 at 3.23.45 PM.png)
+
+
 Example 7: cat, no argument
 
 ![Image](Screen Shot 2024-01-11 at 3.25.16 PM.png)
