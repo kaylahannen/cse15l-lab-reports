@@ -3,14 +3,14 @@ Example 1: cd, no argument
 
 ![Image](Screen Shot 2024-01-11 at 3.15.42 PM.png)
 
-I ran the cd command with no argument out of the home directory. Nothing appeared to change, because running cd with no command returns the implementer to the home directory (which I was already in). The directory stayed the same, and there was no output in the terminal. There was no error produced by this.
+I ran the cd command with no argument out of the home directory. Nothing appeared to change, because running cd with no command returns the implementer to the home directory (which I was already in). The directory stayed the same, and there was no output in the terminal. There was no error message produced by this, but this could be considered an invalid argument error as cd requires a directory argument to function as intended.
 
 
 Example 2: cd, directory argument
 
 ![Image](Screen Shot 2024-01-11 at 3.16.09 PM.png)
 
-I ran the cd command out of the home directory with a directory argument. The working directory changed to the directory I chose (lecture 1). This occurred because the cd command functions to change the directory. There was no error produced by this.
+I ran the cd command with a lecture1 directory argument. The working directory changed to the directory I chose (lecture 1). This occurred because the cd command functions to change the directory. There was no error produced by this.
 
 
 Example 3: cd, file argument
@@ -31,7 +31,7 @@ Example 5: ls, directory argument
 
 ![Image](Screen Shot 2024-01-11 at 3.22.11 PM.png)
 
-I ran the ls command out of the home directory with a lecture1 directory argument. The terminal listed the files and directories within the lecture1 directory. This occurred because ls command was assigned to the lecture1 directory and functions to list files and directories within the assigned directory. There was no error.
+I ran the ls command with a lecture1 directory argument. The terminal listed the files and directories within the lecture1 directory. This occurred because ls command was assigned to the lecture1 directory and functions to list files and directories within the assigned directory. There was no error.
 
 
 Example 6: ls, file argument
@@ -45,13 +45,22 @@ Example 7: cat, no argument
 
 ![Image](Screen Shot 2024-01-11 at 3.25.16 PM.png)
 
-I ran the cat command out of the home directory with no argument. The terminal refused to acknowledge the command and only allowed me to continue writing other input. There was no output whatsoever. This occurred because cat functions to...
+I ran the cat command out of the home directory with no argument. The terminal refused to acknowledge the command and only allowed me to continue writing other input. There was no output whatsoever. This occurred because cat functions to either concatenate files together or print the contents of a single file, and there was no file argument in this case. This could be considered an invalid argument error, but yet again, there was no actual error message. 
 
 
 Example 8: cat, directory argument
 
 ![Image](Screen Shot 2024-01-11 at 3.28.42 PM.png)
 
+I ran the cat command with the lecture1 directory argument. The terminal produced a message stating that lecture1 "Is a directory". Similar to the no argument case, this occurred because cat functions to either concatenate files together or print the contents of a single file, and there was no file argument in this case. This could be considered an invalid argument error.
+
 
 Example 9: cat, file argument
+
 ![Image](Screen Shot 2024-01-11 at 3.29.32 PM.png)
+
+I ran the cat command from the messages directory (within the lecture1 directory) with a file argument. The terminal printed the contents of the file. This occurred because cat can function to print the contents of a single file. There was no error produced.
+
+
+Interestingly, none of this cases produced any messages referring to these actions as "errors". Obviously, these commands have been made to handle all of these exceptions to their ideal functions. I chose to refer to all cases that did not match the explicit intention of tehse commands as "errors". 
+
