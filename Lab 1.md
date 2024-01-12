@@ -3,16 +3,19 @@ Example 1: cd, no argument
 
 ![Image](Screen Shot 2024-01-11 at 3.15.42 PM.png)
 
+When I ran the cd command with no argument out of the home directory, nothing appeared to change. The directory stayed the same, and there was no output in the terminal.
 
 Example 2: cd, directory argument
 
 ![Image](Screen Shot 2024-01-11 at 3.16.09 PM.png)
 
+When I ran the cd command with a directory argument, the working directory changed to the directory I chose (lecture 1). 
 
 Example 3: cd, file argument
 
 ![Image](Screen Shot 2024-01-11 at 3.18.44 PM.png)
 
+When I ran the cd command with a file argument, I received a message in the terminal stating that the argument is "Not a directory". The working directory was not changed.
 
 Example 4: ls, no argument
 
