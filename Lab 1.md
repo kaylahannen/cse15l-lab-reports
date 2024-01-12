@@ -10,14 +10,14 @@ Example 2: cd, directory argument
 
 ![Image](Screen Shot 2024-01-11 at 3.16.09 PM.png)
 
-I ran the cd command with a lecture1 directory argument. The working directory changed to the directory I chose (lecture 1). This occurred because the cd command functions to change the directory. There was no error produced by this.
+I ran the cd command with a lecture1 directory argument. The working directory (home) changed to the directory I chose (lecture 1). This occurred because the cd command functions to change the directory. There was no error produced by this.
 
 
 Example 3: cd, file argument
 
 ![Image](Screen Shot 2024-01-12 at 10.35.46 AM.png)
 
-I ran the cd command out of the lecture1 directory with a file argument. I received a message in the terminal stating that the argument is "Not a directory". The working directory was not changed. This is technically an error as the command is specific to directory arguments and will not work with a file argument.
+I ran the cd command out of the lecture1 directory with a file argument. I received a message in the terminal stating that the argument is "Not a directory". The working directory was not changed. This could be considered an invalid argument error as the command is specific to directory arguments and will not work with a file argument.
 
 
 Example 4: ls, no argument
@@ -38,14 +38,14 @@ Example 6: ls, file argument
 
 ![Image](Screen Shot 2024-01-11 at 3.23.45 PM.png)
 
-I ran the ls command out of the messages directory (within the lecture 1 directory) with a file argument. The terminal simply repeated the command argument, but nothing else happened. This occurred because there are no files or directories within the file. This could be considered an invalid argument error, but no error message was listed.
+I ran the ls command out of the messages directory (within the lecture 1 directory) with a file argument. The terminal simply repeated the command argument, but nothing else happened. This occurred because there are no files or directories within the file. This could be considered an invalid argument error.
 
 
 Example 7: cat, no argument
 
 ![Image](Screen Shot 2024-01-11 at 3.25.16 PM.png)
 
-I ran the cat command out of the home directory with no argument. The terminal refused to acknowledge the command and only allowed me to continue writing other input. There was no output whatsoever. This occurred because cat functions to either concatenate files together or print the contents of a single file, and there was no file argument in this case. This could be considered an invalid argument error, but yet again, there was no actual error message. 
+I ran the cat command out of the home directory with no argument. The terminal refused to acknowledge the command and only allowed me to continue writing other input. There was no output whatsoever. This occurred because cat functions to either concatenate files together or print the contents of a single file, and there was no file argument in this case. This could be considered an invalid argument error, but  there was no actual error message. 
 
 
 Example 8: cat, directory argument
@@ -60,6 +60,7 @@ Example 9: cat, file argument
 ![Image](Screen Shot 2024-01-12 at 12.42.11 PM.png)
 
 I ran the cat command from the messages directory (within the lecture1 directory) with a file argument. The terminal printed the contents of the file. This occurred because cat can function to print the contents of a single file. There was no error produced.
+
 
 
 Interestingly, none of this cases produced any messages referring to these actions as "errors". Obviously, these commands have been made to handle all of these exceptions to their ideal functions. I chose to refer to all cases that did not match the explicit intention of tehse commands as "errors". 
