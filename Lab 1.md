@@ -15,7 +15,7 @@ I ran the cd command with a lecture1 directory argument. The working directory (
 
 Example 3: cd, file argument
 
-![Image](Screen Shot 2024-01-12 at 10.35.46 AM.png)
+![Image](Screen Shot 2024-01-13 at 12.45.28 PM.png)
 
 I ran the cd command out of the lecture1 directory with a file argument. I received a message in the terminal stating that the argument is "Not a directory". The working directory was not changed. This could be considered an invalid argument error as the command is specific to directory arguments and will not work with a file argument.
 
