@@ -36,7 +36,7 @@ I ran the ls command with a lecture1 directory argument. The terminal listed the
 
 Example 6: ls, file argument
 
-![Image](Screen Shot 2024-01-11 at 3.23.45 PM.png)
+![Image](Screen Shot 2024-01-13 at 12.29.09 PM.png)
 
 I ran the ls command out of the messages directory (within the lecture 1 directory) with a file argument. The terminal simply repeated the command argument, but nothing else happened. This occurred because there are no files or directories within the file. This could be considered an invalid argument error.
 
