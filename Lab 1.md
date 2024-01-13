@@ -1,9 +1,9 @@
 # CSE 15L - Lab 1
 Example 1: cd, no argument
 
-![Image](Screen Shot 2024-01-11 at 3.15.42 PM.png)
+![Image](Screen Shot 2024-01-13 at 11.51.53 AM.png)
 
-I ran the cd command with no argument out of the home directory. Nothing appeared to change, because running cd with no command returns the implementer to the home directory (which I was already in). The directory stayed the same, and there was no output in the terminal. There was no error message produced by this, but this could be considered an invalid argument error as cd requires a directory argument to function as intended.
+I ran the cd command with no argument out of the lecture 1 directory. The working directory changed, because running cd with no command returns the implementer to the home directory. There was no error produced by this.
 
 
 Example 2: cd, directory argument
@@ -45,7 +45,7 @@ Example 7: cat, no argument
 
 ![Image](Screen Shot 2024-01-11 at 3.25.16 PM.png)
 
-I ran the cat command out of the home directory with no argument. The terminal refused to acknowledge the command and only allowed me to continue writing other input. There was no output whatsoever. This occurred because cat functions to either concatenate files together or print the contents of a single file, and there was no file argument in this case. This could be considered an invalid argument error, but  there was no actual error message. 
+I ran the cat command out of the lecture1 directory with no argument. The terminal refused to acknowledge the command and only allowed me to continue writing other input. There was no output whatsoever. This occurred because cat functions to either concatenate files together or print the contents of a single file, and there was no file argument in this case. This could be considered an invalid argument error, but  there was no actual error message. 
 
 
 Example 8: cat, directory argument
