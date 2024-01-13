@@ -45,7 +45,7 @@ Example 7: cat, no argument
 
 ![Image](Screen Shot 2024-01-13 at 11.57.27 AM.png)
 
-I ran the cat command out of the lecture1 directory with no argument. The terminal refused to acknowledge the command and only allowed me to continue writing other input. There was no output whatsoever. This occurred because cat functions to either concatenate files together or print the contents of a single file, and there was no file argument in this case. This could be considered an invalid argument error, but  there was no actual error message. 
+I ran the cat command out of the lecture1 directory with no argument. The terminal refused to acknowledge the command and only allowed me to continue writing other input. This occurred because cat functions to either concatenate files together or print the contents of a single file, and there was no file argument in this case. This could be considered an invalid argument error, but  there was no actual error message. 
 
 
 Example 8: cat, directory argument
