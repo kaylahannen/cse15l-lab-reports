@@ -3,7 +3,7 @@ Example 1: cd, no argument
 
 ![Image](Screen Shot 2024-01-13 at 11.51.53 AM.png)
 
-I ran the cd command with no argument out of the lecture 1 directory. The working directory changed, because running cd with no command returns the implementer to the home directory. There was no error produced by this.
+I ran the cd command with no argument out of the lecture1 directory. The working directory changed, because running cd with no command returns the implementer to the home directory. There was no error produced by this.
 
 
 Example 2: cd, directory argument
@@ -43,7 +43,7 @@ I ran the ls command out of the messages directory (within the lecture 1 directo
 
 Example 7: cat, no argument
 
-![Image](Screen Shot 2024-01-11 at 3.25.16 PM.png)
+![Image](Screen Shot 2024-01-13 at 11.57.27 AM.png)
 
 I ran the cat command out of the lecture1 directory with no argument. The terminal refused to acknowledge the command and only allowed me to continue writing other input. There was no output whatsoever. This occurred because cat functions to either concatenate files together or print the contents of a single file, and there was no file argument in this case. This could be considered an invalid argument error, but  there was no actual error message. 
 
