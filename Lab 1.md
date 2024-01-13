@@ -57,7 +57,7 @@ I ran the cat command with the lecture1 directory argument. The terminal produce
 
 Example 9: cat, file argument
 
-![Image](Screen Shot 2024-01-12 at 12.42.11 PM.png)
+![Image](Screen Shot 2024-01-13 at 12.14.24 PM.png)
 
 I ran the cat command from the messages directory (within the lecture1 directory) with a file argument. The terminal printed the contents of the file. This occurred because cat can function to print the contents of a single file. There was no error produced.
 
