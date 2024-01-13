@@ -61,7 +61,3 @@ Example 9: cat, file argument
 
 I ran the cat command from the messages directory (within the lecture1 directory) with a file argument. The terminal printed the contents of the file. This occurred because cat can function to print the contents of a single file. There was no error produced.
 
-
-
-Interestingly, none of this cases produced any messages referring to these actions as "errors". Obviously, these commands have been made to handle all of these exceptions to their ideal functions. I chose to refer to all cases that did not match the explicit intention of tehse commands as "errors". 
-
